@@ -1,0 +1,78 @@
+:root:not([inDOMFullscreen], [chromehidden~="toolbar"]) #tabbrowser-tabbox browser:not(.devtools-toolbox-bottom-iframe, .devtools-toolbox-side-iframe) {
+    border-radius: 0px;
+    clip-path: none;
+    background-color: transparent !important;
+    -moz-window-dragging: no-drag;
+}
+
+.browserStack {
+    box-shadow: none !important;
+}
+
+
+#tabbrowser-tabpanels {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+
+#tabbrowser-tabpanels > .browserSidebarContainer.deck-selected,
+#tabbrowser-tabpanels > .browserSidebarContainer.deck-selected > .browserContainer,
+#tabbrowser-tabpanels > .browserSidebarContainer.deck-selected > .browserContainer > .browserStack,
+#tabbrowser-tabpanels > .browserSidebarContainer.deck-selected > .browserContainer > .browserStack > browser {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+
+#navigator-toolbox,
+#TabsToolbar,
+#nav-bar,
+#PersonalToolbar,
+#toolbar-menubar,
+#sidebar-box {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+#appcontent,
+#tabbrowser-tabpanels,
+#tabbrowser-tabpanels > *,
+.browserSidebarContainer,
+.browserContainer,
+.browserStack,
+#tabbrowser-tabbox,
+#content,
+#browser,
+#appcontent browser,
+.deck-selected {
+    background: transparent !important;
+    -moz-appearance: none !important;
+    box-shadow: none !important;
+}
+
+#navigator-toolbox,
+.browser-toolbar,
+#TabsToolbar,
+#nav-bar,
+#PersonalToolbar {
+background: transparent !important;
+-moz-appearance: none !important;
+box-shadow: none !important;
+}
+
+
+
+
+
+#main-window {
+    background-image: url("theme_frame.png") !important;   /* use your filename */
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}

@@ -1,0 +1,19 @@
+
+/*add url-prefix("about:"), if you want it to be on every about page(not recomended)*/
+@-moz-document url-prefix("about:blank"), url("about:home"), url("about:newtab"), url("about:privatebrowsing") {
+    html, body { background: transparent !important; }
+    #root, .activity-stream, .outer-wrapper, .ds-outer-wrapper,
+    .newtab-experience, .newtab-background, .personalize-layout {
+        background: transparent !important;
+    }
+
+    *[style*="background-image"],
+    [style*="wallpaper"],
+    .wallpaper,
+    .hero-background {
+        background-image: none !important;
+    }
+    .sticky-container {
+        background: transparent !important;
+    }
+}
