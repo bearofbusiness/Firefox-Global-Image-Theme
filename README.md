@@ -13,8 +13,8 @@ Open `about:config` and set:
 | Preference | Value | Purpose |
 |------------|-------|----------|
 | `toolkit.legacyUserProfileCustomizations.stylesheets` | `true` | Enables `userChrome.css` & `userContent.css` |
-| `browser.display.background_color` | `	#000000` | Transparent default page background |
-| `browser.display.background_color.dark` | `	#000000` | Transparent default page background |
+| `browser.display.background_color` | `#000000` | Transparent default page background |
+| `browser.display.background_color.dark` | `#000000` | Transparent default page background |
 | `browser.display.use_system_colors` | `false` | Prevent GTK/system colors from painting |
 | `layout.css.prefers-color-scheme.content-override` | `0` | Follow system scheme instead of forcing dark |
 | `widget.non-native-theme.use-theme-accent` | `true` | Allow CSS-based themes to override system |
