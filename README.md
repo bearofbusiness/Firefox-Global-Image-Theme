@@ -32,7 +32,7 @@ Create a subfolder called `chrome` if it doesn’t exist.
 ### 3. Clone/Copy the Files
 #### cloning
 cd into the `chrome/` directory
-`git glone https://github.com/bearofbusiness/Firefox-Global-Image-Theme.git .`
+`git clone https://github.com/bearofbusiness/Firefox-Global-Image-Theme.git .`
 #### copying
 download the zip unzip it then put it into the `chrome/` you just created.
 
@@ -59,7 +59,7 @@ Once you close and open Firefox you are done!! 🎉🥳🎉
 ### 1. Delete `chrome/`
 Open `about:support` then click **Open Folder** under **Profile Folder** and remove the `chrome/` folder.
 ### 2. Disable Custom CSS Support
-Open `about:config` and input each string and either click the button with the left arror button ⬅️ or the trash can button 🗑️.(depends on the input type)
+Open `about:config` and input each string and either click the button with the left arrow button ⬅️ or the trash can button 🗑️.(depends on the input type)
 - `toolkit.legacyUserProfileCustomizations.stylesheets`
 - `browser.display.background_color`
 - `browser.display.background_color.dark`
