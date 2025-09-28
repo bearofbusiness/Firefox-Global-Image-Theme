@@ -17,7 +17,7 @@
         background: transparent !important;
     }
 }
-
+/*
 @-moz-document url-prefix("http://"), url-prefix("https://") {
     html, body, :root {
         background-color: light-dark(#ffffff, #111111) !important;
@@ -29,3 +29,4 @@
     background-image: none !important;
     }
 }
+*/
