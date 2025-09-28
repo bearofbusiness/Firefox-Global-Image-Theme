@@ -68,7 +68,7 @@ Open `about:config` and input each string and either click the button with the l
 - `toolkit.legacyUserProfileCustomizations.stylesheets`
 - `browser.display.background_color`
 - `browser.display.background_color.dark`
-= `browser.display.use_system_colors`
+- `browser.display.use_system_colors`
 - `layout.css.prefers-color-scheme.content-override`
 - `widget.non-native-theme.use-theme-accent`
 
