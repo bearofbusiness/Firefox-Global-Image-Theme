@@ -35,16 +35,32 @@ Create a subfolder called `chrome` if it doesn’t exist.
 ---
 
 ### 3. Clone/Copy the Files
-#### cloning
+#### Cloning
 cd into the `chrome/` directory
 `git clone https://github.com/bearofbusiness/Firefox-Global-Image-Theme.git .`
-#### copying
-download the zip unzip it then put it into the `chrome/` you just created.
+#### Copying
+Download the zip using the green code button at the top. Then unzip it then put it into the indevidual files into the `chrome/` you just created.
+```tree
+<some-letters and numbers>.default-release
+└── chrome
+    ├── theme_frame3.png
+    ├── theme_frame.png
+    ├── userChrome.css
+    └── userContent.css
+
+```
 
 ### 4. Configuring
-By default there is no image if you want to add one add an image you need call it `theme_frame.png` and put it in `chrome/` \
+By default there is no image if you want to add one add an image you need call it `theme_frame.png` and put it in `chrome/` 
+```tree
+<some-letters and numbers>.default-release
+└── chrome
+    ├── theme_frame.png
+    ├── userChrome.css
+    └── userContent.css
+```
 If your image is a different format you can edit `userChrome.css` at `background-image: url("put image name here") !important;` \
-Lastly if you are on linux and you want a fully transparent window you can comment out the entire `#main-window` block at the bottom of `userChrome.css`
+Lastly if you are on linux and you want a fully transparent window you can comment out the entire `#main-window` block at the bottom of `userChrome.css` using `/*` at the start and `*/` at the end.
 ```css
 #main-window {
     background-image: url("theme_frame.png") !important;
@@ -55,7 +71,7 @@ Lastly if you are on linux and you want a fully transparent window you can comme
 }
 ```
 > [!NOTE]  
-> I have not tested on Windows. I have read that there are extra things you have to do but I do not use Windows and the person I made this for wanted an image background.
+> I have not tested on Windows. I have read that there are extra things you have to do for full transparent but I do not use Windows and the person I made this for wanted an image background.
 
 ### 5. Restart Firefox
 Once you close and open Firefox you are done!! 🎉🥳🎉
