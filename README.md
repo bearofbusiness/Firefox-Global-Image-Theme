@@ -18,7 +18,8 @@ Open `about:config` and set:
 | `browser.display.use_system_colors` | `false` | Prevent GTK/system colors from painting |
 | `layout.css.prefers-color-scheme.content-override` | `0` | Follow system scheme instead of forcing dark |
 | `widget.non-native-theme.use-theme-accent` | `true` | Allow CSS-based themes to override system |
-
+> [!NOTE]  
+> I dont think you need `browser.display.background_color` and `browser.display.background_color.dark`
 ---
 
 ### 2. Locate Your Profile Folder
