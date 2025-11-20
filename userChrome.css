@@ -1,38 +1,39 @@
 .browserStack {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 #tabbrowser-tabpanels {
-    background: transparent !important;
-    background-color: transparent !important;
+  background: transparent;
+  background-color: transparent !important;
 }
 
 #browser {
-    background: transparent !important;
-    -moz-appearance: none !important;
-    box-shadow: none !important;
+  background: transparent !important;
+  -moz-appearance: none !important;
+  box-shadow: none !important;
 }
 
 #navigator-toolbox,
 #nav-bar,
 .browser-toolbar,
 #PersonalToolbar {
-    background: transparent !important;
-    -moz-appearance: none !important;
-    box-shadow: none !important;
+  background: transparent !important;
+  -moz-appearance: none !important;
+  box-shadow: none !important;
 }
 
 #navigator-toolbox {
-    border-bottom: none !important;
+  border-bottom: none !important;
 }
 
 
 
 
 #main-window {
-    background-image: url("theme_frame.png") !important;   /* use your filename */
-    background-repeat: no-repeat !important;
-    background-position: center center !important;
-    background-size: cover !important;
-    background-attachment: fixed !important;
+  background-image: url("theme_frame.png") !important;
+  /* use your filename */
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
 }

@@ -1,27 +1,41 @@
-
 /*add url-prefix("about:"), if you want it to be on every about page(not recomended)*/
-@-moz-document url-prefix("about:blank"), url("about:home"), url("about:newtab"), url("about:privatebrowsing") {
-    html, body { background: transparent !important; }
-    #root, .activity-stream, .outer-wrapper, .ds-outer-wrapper,
-    .newtab-experience, .newtab-background, .personalize-layout {
-        background: transparent !important;
-    }
+@-moz-document url-prefix("about:") {
 
-    *[style*="background-image"],
-    [style*="wallpaper"],
-    .wallpaper,
-    .hero-background {
-        background-image: none !important;
-    }
-    .sticky-container {
-        background: transparent !important;
-    }
+  html,
+  body {
+    background: transparent;
+  }
+
+  #root,
+  .activity-stream,
+  .outer-wrapper,
+  .ds-outer-wrapper,
+  .newtab-experience,
+  .newtab-background,
+  .personalize-layout {
+    background: transparent !important;
+  }
+
+  *[style*="background-image"],
+  [style*="wallpaper"],
+  .wallpaper,
+  .hero-background {
+    background-image: none;
+  }
+
+  .sticky-container {
+    background: transparent;
+  }
 }
 
-@-moz-document domain("digitalocean.com") {
-    html, body, #__next, #gatsby-focus-wrapper {
-        /* pick colors you like */
-        background-color: light-dark(#ffffff, #0b0f17) !important;
-        background-image: none !important;
-    }
+
+@-moz-document regexp("^(?!about:).*$") {
+
+  html,
+  body {
+    background-color: white;
+    /* No !important */
+    /*background-image: none;
+    Remove only UA (browser) default wallpaper */
+  }
 }
