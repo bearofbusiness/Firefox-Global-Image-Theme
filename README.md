@@ -1,10 +1,6 @@
 # Firefox-Global-Image-Theme
 A fully transparent Firefox setup with one global background image behind all UI and content areas. \
 ![image](image-for-markdown/image.png)
-> [!WARNING]  
-> I have found that `https://www.digitalocean.com/` has the custom background "bleed through".
->  I have added a fix for this as a template in `userContent.css`, but I would recomend you have [Dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) installed as it seems to fix the issue.
-> Additionally I have not found another website that does this so I will assume that it is rare.
 ---
 ## Requirements
 - **Firefox 128+**
