@@ -34,8 +34,5 @@
   html,
   body {
     background-color: white;
-    /* No !important */
-    /*background-image: none;
-    Remove only UA (browser) default wallpaper */
   }
 }
