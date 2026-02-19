@@ -30,7 +30,7 @@
 
 
 #main-window {
-  background-image: url("theme_frame.png") !important;
+  /* background-image: url("theme_frame.png") !important; */
   /* use your filename */
   background-repeat: no-repeat !important;
   background-position: center center !important;
