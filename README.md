@@ -14,13 +14,6 @@ Open `about:config` and set:
 |------------|-------|----------|
 | `toolkit.legacyUserProfileCustomizations.stylesheets` | `true` | Enables `userChrome.css` & `userContent.css` |
 |`browser.tabs.allow_transparent_browser` | `true` | allows transparent background for window |
-| `browser.display.background_color` | `#000000` | Transparent default page background |
-| `browser.display.background_color.dark` | `#000000` | Transparent default page background |
-| `browser.display.use_system_colors` | `false` | Prevent GTK/system colors from painting |
-| `layout.css.prefers-color-scheme.content-override` | `0` | Follow system scheme instead of forcing dark |
-| `widget.non-native-theme.use-theme-accent` | `true` | Allow CSS-based themes to override system |
-> [!NOTE]  
-> I dont think you need `browser.display.background_color` and `browser.display.background_color.dark`
 ---
 
 ### 2. Locate Your Profile Folder
@@ -79,11 +72,6 @@ Open `about:support` then click **Open Folder** under **Profile Folder** and rem
 ### 2. Disable Custom CSS Support
 Open `about:config` and input each string and either click the button with the left arrow button ⬅️ or the trash can button 🗑️.(depends on the input type)
 - `toolkit.legacyUserProfileCustomizations.stylesheets`
-- `browser.display.background_color`
-- `browser.display.background_color.dark`
-- `browser.display.use_system_colors`
-- `layout.css.prefers-color-scheme.content-override`
-- `widget.non-native-theme.use-theme-accent`
 - `browser.tabs.allow_transparent_browser`
 
 
