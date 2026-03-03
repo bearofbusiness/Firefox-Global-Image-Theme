@@ -1,38 +1,13 @@
-/*add url-prefix("about:"), if you want it to be on every about page(not recomended)*/
-@-moz-document url-prefix("about:") {
-
-  html,
-  body {
-    background: transparent;
-  }
-
-  #root,
-  .activity-stream,
-  .outer-wrapper,
-  .ds-outer-wrapper,
-  .newtab-experience,
-  .newtab-background,
-  .personalize-layout {
-    background: transparent !important;
-  }
-
-  *[style*="background-image"],
-  [style*="wallpaper"],
-  .wallpaper,
-  .hero-background {
-    background-image: none;
-  }
-
-  .sticky-container {
-    background: transparent;
+@-moz-document url("about:newtab"), url("about:home") {
+  html {
+    --newtab-background-color: transparent !important;
+    --newtab-background-color-secondary: transparent !important;
   }
 }
 
-
-@-moz-document regexp("^(?!about:).*$") {
-
-  html,
-  body {
-    background-color: white;
+@-moz-document url-prefix("http") {
+  html {
+    background-color: canvas;
   }
+
 }

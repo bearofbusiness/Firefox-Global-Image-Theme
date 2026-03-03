@@ -1,37 +1,58 @@
-.browserStack {
-  box-shadow: none !important;
-}
-
-#tabbrowser-tabpanels {
-  background: transparent;
-  background-color: transparent !important;
-}
-
-#browser {
-  background: transparent !important;
-  -moz-appearance: none !important;
-  box-shadow: none !important;
-}
-
-#navigator-toolbox,
-#nav-bar,
-.browser-toolbar,
-#PersonalToolbar {
-  background: transparent !important;
-  -moz-appearance: none !important;
-  box-shadow: none !important;
+/* panel/content background */
+#browser,
+#tabbrowser-tabbox,
+#tabbrowser-tabpanels,
+.browserContainer {
+  --tabpanel-background-color: transparent;
+  --toolbar-bgcolor: transparent;
+  --chrome-content-separator-color: transparent;
 }
 
 #navigator-toolbox {
-  border-bottom: none !important;
+  --toolbar-bgcolor: transparent;
+  --toolbar-bgimage: none;
+
+  --toolbar-field-background-color: transparent;
+  --toolbar-field-focus-background-color: transparent;
+  --toolbar-field-border-color: transparent;
+  --toolbar-field-focus-border-color: transparent;
+
+  --lwt-toolbar-field-background-color: transparent;
+  --lwt-toolbar-field-focus-background-color: transparent;
+  --lwt-toolbar-field-border-color: transparent;
+  --lwt-toolbar-field-focus-background-color: transparent;
 }
 
+/* actual painted surfaces */
+#navigator-toolbox,
+#nav-bar,
+#PersonalToolbar {
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  -moz-appearance: none !important;
+}
 
+/* urlbar */
+#urlbar-background,
+.urlbar-background {
+  background-color: transparent !important;
+  background-image: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  -moz-appearance: none !important;
+}
 
+/* separator lines */
+#navigator-toolbox::after,
+#nav-bar::before,
+#nav-bar::after {
+  display: none !important;
+}
 
 #main-window {
   /* background-image: url("theme_frame.png") !important; */
-  /* use your filename */
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
